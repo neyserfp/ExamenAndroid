@@ -25,11 +25,12 @@
 
     <ImageView
         android:id="@+id/img01"
-        android:background="@drawable/logo"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
+        android:background="@drawable/logo"
+        android:onClick="ingresar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

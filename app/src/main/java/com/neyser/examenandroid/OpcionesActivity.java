@@ -44,6 +44,11 @@ public class OpcionesActivity extends AppCompatActivity {
 
     }
 
+    public void inicio(View view){
+        Intent intent=new Intent(this,MainActivity.class);
+        startActivity(intent);
+    }
+
 
     public void ingresarHistoria(View view){
         btnHistoria = findViewById(R.id.btnHistoria);

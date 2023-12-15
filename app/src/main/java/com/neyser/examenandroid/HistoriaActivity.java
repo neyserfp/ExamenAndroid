@@ -49,6 +49,11 @@ public class HistoriaActivity extends AppCompatActivity {
 
     }
 
+    public void inicio(View view){
+        Intent intent=new Intent(this,MainActivity.class);
+        startActivity(intent);
+    }
+
 
     public void ingresarHistoria(View view){
         btnHHistoria = findViewById(R.id.btnHHistoria);

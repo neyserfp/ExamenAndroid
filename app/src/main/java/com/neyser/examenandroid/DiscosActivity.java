@@ -44,6 +44,11 @@ public class DiscosActivity extends AppCompatActivity {
 
     }
 
+    public void inicio(View view){
+        Intent intent=new Intent(this,MainActivity.class);
+        startActivity(intent);
+    }
+
     public void ingresarHistoria(View view){
         btnDHistoria = findViewById(R.id.btnDHistoria);
         Intent intent=new Intent(this,HistoriaActivity.class);
