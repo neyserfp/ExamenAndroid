@@ -10,10 +10,11 @@
         android:id="@+id/img02"
         android:layout_width="300dp"
         android:layout_height="300dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/imagen2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/img01"
-        android:background="@drawable/imagen2" />
+        app:layout_constraintTop_toBottomOf="@+id/img01" />
 
     <TextView
         android:layout_width="wrap_content"
